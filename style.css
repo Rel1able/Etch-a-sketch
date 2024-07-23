@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(181, 181, 181);
+}
+
+.container {
+    width: 512px;
+    height: 512px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+
+}
+
+.elem {
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    width: 31px;
+    height: 31px;
+
+}
+
+.elem:hover {
+    background-color: rgb(75, 75, 75);
+}
+
+.title {
+    text-align: center;
+}
+
+#button1,
+#button2 {
+    font-size: 20px;
+    border: 2px solid black;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+
+}
